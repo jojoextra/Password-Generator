@@ -1,2 +1,2 @@
-# Password-Generator
-password-generator
+# Password Generator
+A simple app to generate random passwords.
