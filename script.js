@@ -21,3 +21,6 @@ function copyPassword() {
 }
 var text = document.getElementById("password").innerText;
 navigator.clipboard.writeText(text);
+if (length < 4) {
+  alert("Password too short!");
+}
