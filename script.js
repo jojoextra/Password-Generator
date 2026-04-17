@@ -13,3 +13,6 @@ console.log("Password generated");
 var length = document.getElementById("length").value;
 for (var i = 0; i < length; i++) {
 
+if (document.getElementById("uppercase").checked) {
+  chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+}
