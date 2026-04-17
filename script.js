@@ -19,3 +19,5 @@ if (document.getElementById("uppercase").checked) {
 function copyPassword() {
 
 }
+var text = document.getElementById("password").innerText;
+navigator.clipboard.writeText(text);
