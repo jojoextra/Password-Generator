@@ -24,3 +24,4 @@ navigator.clipboard.writeText(text);
 if (length < 4) {
   alert("Password too short!");
 }
+console.log("Advanced password generated");
