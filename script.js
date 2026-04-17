@@ -16,3 +16,6 @@ for (var i = 0; i < length; i++) {
 if (document.getElementById("uppercase").checked) {
   chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 }
+function copyPassword() {
+
+}
