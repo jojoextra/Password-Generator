@@ -10,3 +10,4 @@ var random = Math.floor(Math.random() * chars.length);
 password += chars[random];
 document.getElementById("password").innerText = password;
 console.log("Password generated");
+var length = document.getElementById("length").value;
